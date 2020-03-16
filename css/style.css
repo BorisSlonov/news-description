@@ -560,6 +560,13 @@ body {
   text-align: left;
 }
 
+@media (max-width: 425px) {
+  .text-down-left span {
+    margin-left: 5px;
+    margin-bottom: 15px;
+  }
+}
+
 @media (max-width: 768px) {
   .main-container__row-768 {
     -webkit-box-orient: vertical;
